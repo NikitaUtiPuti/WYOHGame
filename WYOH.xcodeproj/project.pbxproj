@@ -16,6 +16,8 @@
 		DB84FD032906EE7000C7FC14 /* WYOHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84FD022906EE7000C7FC14 /* WYOHTests.swift */; };
 		DB84FD0D2906EE7000C7FC14 /* WYOHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84FD0C2906EE7000C7FC14 /* WYOHUITests.swift */; };
 		DB84FD0F2906EE7000C7FC14 /* WYOHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84FD0E2906EE7000C7FC14 /* WYOHUITestsLaunchTests.swift */; };
+		DB84FD1E2906F1AE00C7FC14 /* LibraryCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84FD1D2906F1AE00C7FC14 /* LibraryCollectionVC.swift */; };
+		DB84FD202906F23700C7FC14 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84FD1F2906F23700C7FC14 /* LibraryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DB84FD082906EE7000C7FC14 /* WYOHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYOHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB84FD0C2906EE7000C7FC14 /* WYOHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYOHUITests.swift; sourceTree = "<group>"; };
 		DB84FD0E2906EE7000C7FC14 /* WYOHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYOHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB84FD1D2906F1AE00C7FC14 /* LibraryCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionVC.swift; sourceTree = "<group>"; };
+		DB84FD1F2906F23700C7FC14 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				DB84FCEB2906EE6F00C7FC14 /* AppDelegate.swift */,
 				DB84FCED2906EE6F00C7FC14 /* SceneDelegate.swift */,
+				DB84FD1D2906F1AE00C7FC14 /* LibraryCollectionVC.swift */,
+				DB84FD1F2906F23700C7FC14 /* LibraryCell.swift */,
 				DB84FCEF2906EE6F00C7FC14 /* ViewController.swift */,
 				DB84FCF12906EE6F00C7FC14 /* Main.storyboard */,
 				DB84FCF42906EE7000C7FC14 /* Assets.xcassets */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB84FD202906F23700C7FC14 /* LibraryCell.swift in Sources */,
 				DB84FCF02906EE6F00C7FC14 /* ViewController.swift in Sources */,
 				DB84FCEC2906EE6F00C7FC14 /* AppDelegate.swift in Sources */,
+				DB84FD1E2906F1AE00C7FC14 /* LibraryCollectionVC.swift in Sources */,
 				DB84FCEE2906EE6F00C7FC14 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
